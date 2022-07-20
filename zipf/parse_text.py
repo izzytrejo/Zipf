@@ -14,7 +14,7 @@ def count_words(o, clean_text=False):
     """
     text = o.read()
     if clean_text:
-        text = yee_haw(text)
+        text = _yee_haw(text)
 
     chunks = text.split()
     npunc = [word.strip(string.punctuation) for word in chunks]
@@ -22,7 +22,7 @@ def count_words(o, clean_text=False):
     word_counts = collections.Counter(word_list)
     return dict(word_counts)
 
-def yee_haw(text):
+def _yee_haw(text):
     """
     Find fences in a Gutenberg text and select the text between them.
     """
