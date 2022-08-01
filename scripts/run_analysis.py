@@ -1,6 +1,9 @@
 import argparse
 import pandas as pd
 import pathlib
+import sys
+
+sys.path.append("..")
 
 from zipf.parse_text import count_words
 from zipf.fit_distribution import compute_summary
