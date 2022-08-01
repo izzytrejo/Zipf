@@ -7,8 +7,9 @@ Make a copy of this repository (go to the green button at the top right that say
 
 ## Running the code
 
-The simplest run can be done with:
+The simplest run might look like this:
 
 ```
-
+cd scripts
+python3 run_analysis.py --in_folder ../data --out_folder .
 ```
