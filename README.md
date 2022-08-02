@@ -11,10 +11,10 @@ pip install -e
 ## Folders
 This project is divided into five folders:
 
-    zipf: contains the main module code that runs the analysis
-    scripts: contains scripts to glue the module code
-    data: contains the text for the analysis
-    results: will contain the output of the analysis
+zipf: contains the main module code that runs the analysis
+scripts: contains scripts to glue the module code
+data: contains the text for the analysis
+results: will contain the output of the analysis
 
 
 ## Running the code
