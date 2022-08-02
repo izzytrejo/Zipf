@@ -1,9 +1,7 @@
 
 """
 Most of this code is from 
-https://github.com/merely-useful/py-rse/blob/book/zipf/bin/plotcounts.py originally 
-released under a CC-BY license by the Research Software Engineering for Python
-authors.
+https://github.com/merely-useful/py-rse/blob/book/zipf/bin/plotcounts.py
 """
 
 import numpy as np
