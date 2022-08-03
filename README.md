@@ -23,7 +23,7 @@ The simplest run might look like this:
 
 ```
 cd scripts
-python3 run_analysis.py --in_folder ../data --out_folder .
+python3 run_analysis.py --in_folder ../data --out_folder ../results
 ```
 ## Data sets
 I've already added the texts needed for this project in the data folder. These are the books I used from Project Gutenberg (https://www.gutenberg.org/):
