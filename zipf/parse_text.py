@@ -18,7 +18,8 @@ def count_words(o, clean_text=False):
 
     Arguments:
         o: an open file handle
-        clean_text: states if true or false. If true, filters out boilerplate code typical of a Gutenberg library book.
+        clean_text: states if true or false. If true, filters out 
+        boilerplate code typical of a Gutenberg library book.
 
     Returns:
         A dict keyed by word, with word counts
